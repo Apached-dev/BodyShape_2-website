@@ -35,6 +35,23 @@
   gap: 35px 30px;
 }
 
+.section__groups-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 105px 32px;
+
+}
+
+@media (max-width: 1200px) {
+  .section__groups-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 32px;
+  }
+
+}
+
+
+
 @media (max-width: 800px) {
   .section {
     padding: 100px 0;
@@ -42,6 +59,12 @@
   .section__trainer-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .section__groups-grid{
+    gap: 50px 32px;
+
+  }
+  
 }
 
 @media (max-width: 600px) {
@@ -55,4 +78,10 @@
   .section__header p {
     font-size: 14px;
   }
+  .section__groups-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 16px;
+  
+}
 }

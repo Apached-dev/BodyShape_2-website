@@ -53,8 +53,6 @@
   opacity: 1;
 }
 
-.card__trainer-img {
-}
 
 @media (hover: none) and (pointer: coarse) {
   .card__trainer-name {
