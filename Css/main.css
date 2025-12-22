@@ -11,3 +11,5 @@
 /* Blocks */
 
 @import "./Blocks/header.css";
+@import "./Blocks/section.css";
+@import "./Blocks/card__trainer.css";

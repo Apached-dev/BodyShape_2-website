@@ -9,7 +9,7 @@
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left top;
 }
 
   
@@ -36,7 +36,7 @@
   
   color: var(--accent);
   transition: color 0.3s ease-in;
-  transition-delay: 0.3s;
+  
 
 }
   
@@ -47,6 +47,9 @@
 
 
 @media (max-width: 800px) {
+
+  .header {
+  }
 
   .header__logo {
     display: none;
@@ -70,7 +73,7 @@
 
     height: auto;
     padding-bottom: 60px;
-    background-position: left top;
+    /* background-position: left top; */
   }
 
   .header__logo{
