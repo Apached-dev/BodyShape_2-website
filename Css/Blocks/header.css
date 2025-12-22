@@ -3,23 +3,20 @@
 
   background-image: image-set(
     url(./../../img/hero/hero-bg.jpg) 1x,
-    url(./../../img/hero/hero-bg@2x.jpg)  2x 
+    url(./../../img/hero/hero-bg@2x.jpg) 2x
   );
 
   height: 750px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left top;
 }
 
-  
 .header__row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  
-  }
+}
 
 .header__nav {
   display: flex;
@@ -29,25 +26,19 @@
   font-family: var(--font-accent);
   font-weight: 700;
   letter-spacing: 3px;
-
 }
 
 .header__nav a:hover {
-  
   color: var(--accent);
-  transition: color 0.3s ease-in;
-  transition-delay: 0.3s;
-
+  transition: all 0.3s ease-in;
 }
-  
+
 .header__img {
   padding-top: 125px;
   text-align: right;
 }
 
-
 @media (max-width: 800px) {
-
   .header__logo {
     display: none;
   }
@@ -59,21 +50,16 @@
   .header__img {
     text-align: center;
   }
-
-
 }
 
-
 @media (max-width: 600px) {
-
   .header {
-
     height: auto;
     padding-bottom: 60px;
-    background-position: left top;
+    /* background-position: left top; */
   }
 
-  .header__logo{
+  .header__logo {
     display: block;
   }
 
@@ -90,5 +76,4 @@
   .header__img {
     display: none;
   }
-
 }
