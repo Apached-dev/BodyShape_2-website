@@ -30,3 +30,9 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.container__contact {
+  max-width: 586px;
+  /* 
+  width: 100%; */
+}
